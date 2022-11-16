@@ -9,21 +9,38 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack(alignment: .leading)
-        {
-            Text("DIY Bridge Spot")
-                .font(.title)
-            .foregroundColor(.blue)
-            
-            HStack {
-                Text("Charleston Skate Park")
-                    .font(.subheadline)
-            Spacer()
-                Text("South Carolina")
-                    .font(.subheadline)
+        VStack{
+            VStack(alignment: .leading)
+            {
+                MapView()
+                    .ignoresSafeArea(edges: .top)
+                    .frame(height: 300)
+                
+                CircleImage()
+                    .offset(y: -130)
+                    .padding(.bottom, -130)
+                
+                Text("DIY Bridge Spot")
+                    .font(.title)
+                    .foregroundColor(.blue)
+                
+                HStack {
+                    Text("Charleston Skate Park")
+                    Spacer()
+                    Text("South Carolina")
+                }
+                .font(.subheadline)
+                .foregroundColor(.secondary)
+                
+                Divider()
+
+                                Text("About DIY Bridge Spot")
+                                    .font(.title2)
+                                Text("The local skaters built an awesome Do It Yourself (DIY) skatepark under the bridge. It's made entirely out of cement and is built properly.")
             }
+            .padding()
+            Spacer()
         }
-        .padding()
     }
 }
 
