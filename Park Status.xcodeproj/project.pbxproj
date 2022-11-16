@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1E805C7929245136001AE6DF /* Landmark2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Landmark2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E805C7929245136001AE6DF /* Park Status.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Park Status.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E805C7C29245136001AE6DF /* Landmark2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark2App.swift; sourceTree = "<group>"; };
 		1E805C7E29245137001AE6DF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1E805C8029245139001AE6DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -47,7 +47,7 @@
 		1E805C7A29245136001AE6DF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1E805C7929245136001AE6DF /* Landmark2.app */,
+				1E805C7929245136001AE6DF /* Park Status.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -76,9 +76,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1E805C7829245136001AE6DF /* Landmark2 */ = {
+		1E805C7829245136001AE6DF /* Park Status */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1E805C8729245139001AE6DF /* Build configuration list for PBXNativeTarget "Landmark2" */;
+			buildConfigurationList = 1E805C8729245139001AE6DF /* Build configuration list for PBXNativeTarget "Park Status" */;
 			buildPhases = (
 				1E805C7529245136001AE6DF /* Sources */,
 				1E805C7629245136001AE6DF /* Frameworks */,
@@ -88,9 +88,9 @@
 			);
 			dependencies = (
 			);
-			name = Landmark2;
+			name = "Park Status";
 			productName = Landmark2;
-			productReference = 1E805C7929245136001AE6DF /* Landmark2.app */;
+			productReference = 1E805C7929245136001AE6DF /* Park Status.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -108,7 +108,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 1E805C7429245136001AE6DF /* Build configuration list for PBXProject "Landmark2" */;
+			buildConfigurationList = 1E805C7429245136001AE6DF /* Build configuration list for PBXProject "Park Status" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -121,7 +121,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1E805C7829245136001AE6DF /* Landmark2 */,
+				1E805C7829245136001AE6DF /* Park Status */,
 			);
 		};
 /* End PBXProject section */
@@ -275,6 +275,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Landmark2/Preview Content\"";
+				DEVELOPMENT_TEAM = 8ST43C8H2Z;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -303,6 +304,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Landmark2/Preview Content\"";
+				DEVELOPMENT_TEAM = 8ST43C8H2Z;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -326,7 +328,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1E805C7429245136001AE6DF /* Build configuration list for PBXProject "Landmark2" */ = {
+		1E805C7429245136001AE6DF /* Build configuration list for PBXProject "Park Status" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1E805C8529245139001AE6DF /* Debug */,
@@ -335,7 +337,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1E805C8729245139001AE6DF /* Build configuration list for PBXNativeTarget "Landmark2" */ = {
+		1E805C8729245139001AE6DF /* Build configuration list for PBXNativeTarget "Park Status" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1E805C8829245139001AE6DF /* Debug */,

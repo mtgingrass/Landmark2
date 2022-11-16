@@ -14,7 +14,7 @@ struct ContentView: View {
             {
                 MapView()
                     .ignoresSafeArea(edges: .top)
-                    .frame(height: 300)
+                    .frame(height: 400)
                 
                 CircleImage()
                     .offset(y: -130)
@@ -32,11 +32,12 @@ struct ContentView: View {
                 .font(.subheadline)
                 .foregroundColor(.secondary)
                 
-                Divider()
 
                                 Text("About DIY Bridge Spot")
                                     .font(.title2)
-                                Text("The local skaters built an awesome Do It Yourself (DIY) skatepark under the bridge. It's made entirely out of cement and is built properly.")
+                ScrollView{
+                    Text("The local skaters built an awesome Do It Yourself (DIY) skatepark under the bridge. It's made entirely out of cement and is built properly.")
+                }
             }
             .padding()
             Spacer()
