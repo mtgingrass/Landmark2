@@ -1,27 +1,29 @@
 [
     {
-        "name": "DIY Skate Park",
+        "name": "Marrington Plantation",
         "category": "Rivers",
         "city": "Charleston",
         "state": "South Carolina",
         "id": 1001,
         "isFeatured": true,
         "isFavorite": true,
+        "isOpen": true,
         "park": "Joshua Tree National Park",
         "coordinates": {
-            "longitude": -79.94757362329382,
-            "latitude": 32.80359809003649
+            "longitude": -79.95633721534124,
+            "latitude": 32.96370321836291
         },
-        "description": "The local skaters built an awesome Do It Yourself (DIY) skatepark under the bridge. It's made entirely out of cement and is built properly.",
-        "imageName": "diyskatepark"
+        "description": "Hunting begins August 15th. Hunting takes place on Monday, Wednesday, and Friday Afternoons. Trails are closed starting at 4 PM and ends 30 minutes after sunset. Be off the trail by 3 PM on these days.\n\n Hunting on Saturdays, Sundays, and Federal Holidays begins 30 minutes before sunrise and ends at 9 AM. Do not ride trails before 9 AM. \n\nSigns will be posted at the trailhead. Information on the signs may differ from the above. Hunting ends January 1st.",
+        "imageName": "marringtonplantation"
     },
     {
-        "name": "Silver Salmon Creek",
+        "name": "Biggens",
         "category": "Lakes",
         "city": "Port Alsworth",
         "state": "Alaska",
         "id": 1002,
         "isFeatured": false,
+        "isOpen": true,
         "isFavorite": false,
         "park": "Lake Clark National Park and Preserve",
         "coordinates": {
@@ -32,13 +34,14 @@
         "imageName": "silversalmoncreek"
     },
     {
-        "name": "Chilkoot Trail",
+        "name": "Saw Mill",
         "category": "Mountains",
         "city": "Skagway",
         "state": "Alaska",
         "id": 1003,
         "isFeatured": false,
         "isFavorite": true,
+        "isOpen": true,
         "park": "Klondike Gold Rush National Historical Park",
         "coordinates": {
             "longitude": -135.334571,
@@ -48,13 +51,14 @@
         "imageName": "chilkoottrail"
     },
     {
-        "name": "St. Mary Lake",
+        "name": "Wannamaker North",
         "category": "Lakes",
         "city": "Browning",
         "state": "Montana",
         "id": 1004,
         "isFeatured": true,
         "isFavorite": true,
+        "isOpen": true,
         "park": "Glacier National Park",
         "coordinates": {
             "longitude": -113.536248,
@@ -64,13 +68,14 @@
         "imageName": "stmarylake"
     },
     {
-        "name": "Twin Lake",
+        "name": "Laurel Hill Park",
         "category": "Lakes",
         "city": "Twin Lakes",
         "state": "Alaska",
         "id": 1005,
         "isFeatured": false,
         "isFavorite": false,
+        "isOpen": true,
         "park": "Lake Clark National Park and Preserve",
         "coordinates": {
             "longitude": -153.849883,
@@ -80,13 +85,14 @@
         "imageName": "twinlake"
     },
     {
-        "name": "Lake McDonald",
+        "name": "Harbison State Park",
         "category": "Mountains",
         "city": "West Glacier",
         "state": "Montana",
         "id": 1006,
         "isFeatured": false,
         "isFavorite": false,
+        "isOpen": false,
         "park": "Glacier National Park",
         "coordinates": {
             "longitude": -113.934831,
@@ -95,100 +101,5 @@
         "description": "Suscipit inceptos est felis purus aenean aliquet adipiscing diam venenatis, augue nibh duis neque aliquam tellus condimentum sagittis vivamus, cras ante etiam sit conubia elit tempus accumsan libero, mattis per erat habitasse cubilia ligula penatibus curae. Sagittis lorem augue arcu blandit libero molestie non ullamcorper, finibus imperdiet iaculis ad quam per luctus neque, ligula curae mauris parturient diam auctor eleifend laoreet ridiculus, hendrerit adipiscing sociosqu pretium nec velit aliquam. Inceptos egestas maecenas imperdiet eget id donec nisl curae congue, massa tortor vivamus ridiculus integer porta ultrices venenatis aliquet, curabitur et posuere blandit magnis dictum auctor lacinia, eleifend dolor in ornare vulputate ipsum morbi felis. Faucibus cursus malesuada orci ultrices diam nisl taciti torquent, tempor eros suspendisse euismod condimentum dis velit mi tristique, a quis etiam dignissim dictum porttitor lobortis ad fermentum, sapien consectetur dui dolor purus elit pharetra. Interdum mattis sapien ac orci vestibulum vulputate laoreet proin hac, maecenas mollis ridiculus morbi praesent cubilia vitae ligula vel, sem semper volutpat curae mauris justo nisl luctus, non eros primis ultrices nascetur erat varius integer.",
         "imageName": "lakemcdonald"
     },
-    {
-        "name": "Charley Rivers",
-        "category": "Rivers",
-        "city": "Eaking",
-        "state": "Alaska",
-        "id": 1007,
-        "isFeatured": true,
-        "isFavorite": false,
-        "park": "Charley Rivers National Preserve",
-        "coordinates": {
-            "longitude": -143.122586,
-            "latitude": 65.350021
-        },
-        "description": "Suscipit inceptos est felis purus aenean aliquet adipiscing diam venenatis, augue nibh duis neque aliquam tellus condimentum sagittis vivamus, cras ante etiam sit conubia elit tempus accumsan libero, mattis per erat habitasse cubilia ligula penatibus curae. Sagittis lorem augue arcu blandit libero molestie non ullamcorper, finibus imperdiet iaculis ad quam per luctus neque, ligula curae mauris parturient diam auctor eleifend laoreet ridiculus, hendrerit adipiscing sociosqu pretium nec velit aliquam. Inceptos egestas maecenas imperdiet eget id donec nisl curae congue, massa tortor vivamus ridiculus integer porta ultrices venenatis aliquet, curabitur et posuere blandit magnis dictum auctor lacinia, eleifend dolor in ornare vulputate ipsum morbi felis. Faucibus cursus malesuada orci ultrices diam nisl taciti torquent, tempor eros suspendisse euismod condimentum dis velit mi tristique, a quis etiam dignissim dictum porttitor lobortis ad fermentum, sapien consectetur dui dolor purus elit pharetra. Interdum mattis sapien ac orci vestibulum vulputate laoreet proin hac, maecenas mollis ridiculus morbi praesent cubilia vitae ligula vel, sem semper volutpat curae mauris justo nisl luctus, non eros primis ultrices nascetur erat varius integer.",
-        "imageName": "charleyrivers"
-    },
-    {
-        "name": "Icy Bay",
-        "category": "Mountains",
-        "city": "Icy Bay",
-        "state": "Alaska",
-        "id": 1008,
-        "isFeatured": false,
-        "isFavorite": false,
-        "park": "Wrangell-St. Elias National Park and Preserve",
-        "coordinates": {
-            "longitude": -141.518167,
-            "latitude": 60.089917
-        },
-        "description": "Suscipit inceptos est felis purus aenean aliquet adipiscing diam venenatis, augue nibh duis neque aliquam tellus condimentum sagittis vivamus, cras ante etiam sit conubia elit tempus accumsan libero, mattis per erat habitasse cubilia ligula penatibus curae. Sagittis lorem augue arcu blandit libero molestie non ullamcorper, finibus imperdiet iaculis ad quam per luctus neque, ligula curae mauris parturient diam auctor eleifend laoreet ridiculus, hendrerit adipiscing sociosqu pretium nec velit aliquam. Inceptos egestas maecenas imperdiet eget id donec nisl curae congue, massa tortor vivamus ridiculus integer porta ultrices venenatis aliquet, curabitur et posuere blandit magnis dictum auctor lacinia, eleifend dolor in ornare vulputate ipsum morbi felis. Faucibus cursus malesuada orci ultrices diam nisl taciti torquent, tempor eros suspendisse euismod condimentum dis velit mi tristique, a quis etiam dignissim dictum porttitor lobortis ad fermentum, sapien consectetur dui dolor purus elit pharetra. Interdum mattis sapien ac orci vestibulum vulputate laoreet proin hac, maecenas mollis ridiculus morbi praesent cubilia vitae ligula vel, sem semper volutpat curae mauris justo nisl luctus, non eros primis ultrices nascetur erat varius integer.",
-        "imageName": "icybay"
-    },
-    {
-        "name": "Rainbow Lake",
-        "category": "Lakes",
-        "city": "Willow",
-        "state": "Alaska",
-        "id": 1009,
-        "isFeatured": false,
-        "isFavorite": false,
-        "park": "State Recreation Area",
-        "coordinates": {
-            "longitude": -150.086103,
-            "latitude": 61.694334
-        },
-        "description": "Suscipit inceptos est felis purus aenean aliquet adipiscing diam venenatis, augue nibh duis neque aliquam tellus condimentum sagittis vivamus, cras ante etiam sit conubia elit tempus accumsan libero, mattis per erat habitasse cubilia ligula penatibus curae. Sagittis lorem augue arcu blandit libero molestie non ullamcorper, finibus imperdiet iaculis ad quam per luctus neque, ligula curae mauris parturient diam auctor eleifend laoreet ridiculus, hendrerit adipiscing sociosqu pretium nec velit aliquam. Inceptos egestas maecenas imperdiet eget id donec nisl curae congue, massa tortor vivamus ridiculus integer porta ultrices venenatis aliquet, curabitur et posuere blandit magnis dictum auctor lacinia, eleifend dolor in ornare vulputate ipsum morbi felis. Faucibus cursus malesuada orci ultrices diam nisl taciti torquent, tempor eros suspendisse euismod condimentum dis velit mi tristique, a quis etiam dignissim dictum porttitor lobortis ad fermentum, sapien consectetur dui dolor purus elit pharetra. Interdum mattis sapien ac orci vestibulum vulputate laoreet proin hac, maecenas mollis ridiculus morbi praesent cubilia vitae ligula vel, sem semper volutpat curae mauris justo nisl luctus, non eros primis ultrices nascetur erat varius integer.",
-        "imageName": "rainbowlake"
-    },
-    {
-        "name": "Hidden Lake",
-        "category": "Lakes",
-        "city": "Newhalem",
-        "state": "Washington",
-        "id": 1010,
-        "isFeatured": false,
-        "isFavorite": false,
-        "park": "North Cascades National Park",
-        "coordinates": {
-            "longitude": -121.17799,
-            "latitude": 48.495442
-        },
-        "description": "Suscipit inceptos est felis purus aenean aliquet adipiscing diam venenatis, augue nibh duis neque aliquam tellus condimentum sagittis vivamus, cras ante etiam sit conubia elit tempus accumsan libero, mattis per erat habitasse cubilia ligula penatibus curae. Sagittis lorem augue arcu blandit libero molestie non ullamcorper, finibus imperdiet iaculis ad quam per luctus neque, ligula curae mauris parturient diam auctor eleifend laoreet ridiculus, hendrerit adipiscing sociosqu pretium nec velit aliquam. Inceptos egestas maecenas imperdiet eget id donec nisl curae congue, massa tortor vivamus ridiculus integer porta ultrices venenatis aliquet, curabitur et posuere blandit magnis dictum auctor lacinia, eleifend dolor in ornare vulputate ipsum morbi felis. Faucibus cursus malesuada orci ultrices diam nisl taciti torquent, tempor eros suspendisse euismod condimentum dis velit mi tristique, a quis etiam dignissim dictum porttitor lobortis ad fermentum, sapien consectetur dui dolor purus elit pharetra. Interdum mattis sapien ac orci vestibulum vulputate laoreet proin hac, maecenas mollis ridiculus morbi praesent cubilia vitae ligula vel, sem semper volutpat curae mauris justo nisl luctus, non eros primis ultrices nascetur erat varius integer.",
-        "imageName": "hiddenlake"
-    },
-    {
-        "name": "Chincoteague",
-        "category": "Rivers",
-        "city": "Chincoteague",
-        "state": "Virginia",
-        "id": 1011,
-        "isFeatured": false,
-        "isFavorite": false,
-        "park": "Chincoteague National Wildlife Refuge",
-        "coordinates": {
-            "longitude": -75.383212,
-            "latitude": 37.91531
-        },
-        "description": "Suscipit inceptos est felis purus aenean aliquet adipiscing diam venenatis, augue nibh duis neque aliquam tellus condimentum sagittis vivamus, cras ante etiam sit conubia elit tempus accumsan libero, mattis per erat habitasse cubilia ligula penatibus curae. Sagittis lorem augue arcu blandit libero molestie non ullamcorper, finibus imperdiet iaculis ad quam per luctus neque, ligula curae mauris parturient diam auctor eleifend laoreet ridiculus, hendrerit adipiscing sociosqu pretium nec velit aliquam. Inceptos egestas maecenas imperdiet eget id donec nisl curae congue, massa tortor vivamus ridiculus integer porta ultrices venenatis aliquet, curabitur et posuere blandit magnis dictum auctor lacinia, eleifend dolor in ornare vulputate ipsum morbi felis. Faucibus cursus malesuada orci ultrices diam nisl taciti torquent, tempor eros suspendisse euismod condimentum dis velit mi tristique, a quis etiam dignissim dictum porttitor lobortis ad fermentum, sapien consectetur dui dolor purus elit pharetra. Interdum mattis sapien ac orci vestibulum vulputate laoreet proin hac, maecenas mollis ridiculus morbi praesent cubilia vitae ligula vel, sem semper volutpat curae mauris justo nisl luctus, non eros primis ultrices nascetur erat varius integer.",
-        "imageName": "chincoteague"
-    },
-    {
-        "name": "Lake Umbagog",
-        "category": "Lakes",
-        "city": "Errol",
-        "state": "New Hampshire",
-        "id": 1012,
-        "isFeatured": false,
-        "isFavorite": false,
-        "park": "Umbagog National Wildlife Refuge",
-        "coordinates": {
-            "longitude": -71.056816,
-            "latitude": 44.747408
-        },
-        "description": "Suscipit inceptos est felis purus aenean aliquet adipiscing diam venenatis, augue nibh duis neque aliquam tellus condimentum sagittis vivamus, cras ante etiam sit conubia elit tempus accumsan libero, mattis per erat habitasse cubilia ligula penatibus curae. Sagittis lorem augue arcu blandit libero molestie non ullamcorper, finibus imperdiet iaculis ad quam per luctus neque, ligula curae mauris parturient diam auctor eleifend laoreet ridiculus, hendrerit adipiscing sociosqu pretium nec velit aliquam. Inceptos egestas maecenas imperdiet eget id donec nisl curae congue, massa tortor vivamus ridiculus integer porta ultrices venenatis aliquet, curabitur et posuere blandit magnis dictum auctor lacinia, eleifend dolor in ornare vulputate ipsum morbi felis. Faucibus cursus malesuada orci ultrices diam nisl taciti torquent, tempor eros suspendisse euismod condimentum dis velit mi tristique, a quis etiam dignissim dictum porttitor lobortis ad fermentum, sapien consectetur dui dolor purus elit pharetra. Interdum mattis sapien ac orci vestibulum vulputate laoreet proin hac, maecenas mollis ridiculus morbi praesent cubilia vitae ligula vel, sem semper volutpat curae mauris justo nisl luctus, non eros primis ultrices nascetur erat varius integer.",
-        "imageName": "umbagog"
-    }
+  
 ]

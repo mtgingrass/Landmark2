@@ -19,10 +19,11 @@ struct LandmarkDetail: View {
         ScrollView {
             MapView(coordinate: landmark.locationCoordinate)
                 .ignoresSafeArea(edges: .top)
-                .frame(height: 300)
+                .frame(height: 500)
 
             CircleImage(image: landmark.image)
                 .offset(y: -130)
+                .offset(x: -100)
                 .padding(.bottom, -130)
 
             VStack(alignment: .leading) {

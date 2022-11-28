@@ -25,6 +25,15 @@ struct LandmarkRow: View {
                     .imageScale(.medium)
                     .foregroundColor(.yellow)
             }
+            if landmark.isOpen{
+                Image(systemName: "circle.fill")
+                    .imageScale(.medium)
+                    .foregroundColor(.green)
+            } else {
+                Image(systemName: "circle.fill")
+                    .imageScale(.medium)
+                    .foregroundColor(.red)
+            }
         }
     }
 }
