@@ -31,6 +31,18 @@ struct LandmarkDetail: View {
                     Text(landmark.name)
                         .font(.title)
                     FavoriteButton(isSet: $modelData.landmarks[landmarkIndex].isFavorite)
+                    
+                    if (landmark.isOpen) {
+                        Image(systemName: "circle.fill")
+                            .imageScale(.medium)
+                            .foregroundColor(.green)
+                    }
+                    if (!landmark.isOpen) {
+                        Image(systemName: "circle.fill")
+                            .imageScale(.medium)
+                            .foregroundColor(.red)
+                    }
+                    
                 }
 
                 HStack {
@@ -45,6 +57,7 @@ struct LandmarkDetail: View {
 
                 Text("About \(landmark.name)")
                     .font(.title2)
+                    .bold()
                 Text(landmark.description)
             }
             .padding()

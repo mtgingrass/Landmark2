@@ -32,7 +32,7 @@ struct LandmarkList: View {
                     }
                 }
             }
-            .navigationTitle("Trails")
+            .navigationTitle("Charleston Trails")
         }
     }
 }
